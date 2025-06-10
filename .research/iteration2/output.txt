@@ -1,0 +1,59 @@
+RDEIL (Robust Diffusion-Enhanced Imitation Learning) Experiments
+============================================================
+
+Starting Experiment 1: Controlled Noise Injection Test
+Epoch 1/20: Baseline Loss = 1.4074, RDEIL Combined Loss = 2.8002, Reconstruction Error = 1.3847
+Epoch 2/20: Baseline Loss = 1.3839, RDEIL Combined Loss = 2.7640, Reconstruction Error = 1.3788
+Epoch 3/20: Baseline Loss = 1.3882, RDEIL Combined Loss = 2.7698, Reconstruction Error = 1.3813
+Epoch 4/20: Baseline Loss = 1.3850, RDEIL Combined Loss = 2.7555, Reconstruction Error = 1.3748
+Epoch 5/20: Baseline Loss = 1.3941, RDEIL Combined Loss = 2.7857, Reconstruction Error = 1.3883
+Epoch 6/20: Baseline Loss = 1.3999, RDEIL Combined Loss = 2.7858, Reconstruction Error = 1.3822
+Epoch 7/20: Baseline Loss = 1.4224, RDEIL Combined Loss = 2.7797, Reconstruction Error = 1.3784
+Epoch 8/20: Baseline Loss = 1.4447, RDEIL Combined Loss = 2.8081, Reconstruction Error = 1.3763
+Epoch 9/20: Baseline Loss = 1.4131, RDEIL Combined Loss = 2.8156, Reconstruction Error = 1.3747
+Epoch 10/20: Baseline Loss = 1.4188, RDEIL Combined Loss = 2.8005, Reconstruction Error = 1.3758
+Epoch 11/20: Baseline Loss = 1.4266, RDEIL Combined Loss = 2.8378, Reconstruction Error = 1.3880
+Epoch 12/20: Baseline Loss = 1.4361, RDEIL Combined Loss = 2.8586, Reconstruction Error = 1.3914
+Epoch 13/20: Baseline Loss = 1.4635, RDEIL Combined Loss = 2.8898, Reconstruction Error = 1.4002
+Epoch 14/20: Baseline Loss = 1.4775, RDEIL Combined Loss = 2.8482, Reconstruction Error = 1.3782
+Epoch 15/20: Baseline Loss = 1.5050, RDEIL Combined Loss = 2.8841, Reconstruction Error = 1.3755
+Epoch 16/20: Baseline Loss = 1.5604, RDEIL Combined Loss = 2.9189, Reconstruction Error = 1.3828
+Epoch 17/20: Baseline Loss = 1.5270, RDEIL Combined Loss = 2.9179, Reconstruction Error = 1.3784
+Epoch 18/20: Baseline Loss = 1.5889, RDEIL Combined Loss = 2.9816, Reconstruction Error = 1.3788
+Epoch 19/20: Baseline Loss = 1.6179, RDEIL Combined Loss = 3.0209, Reconstruction Error = 1.3849
+Epoch 20/20: Baseline Loss = 1.6507, RDEIL Combined Loss = 3.0042, Reconstruction Error = 1.3692
+Experiment 1 completed. Plots saved.
+
+Starting Experiment 2: Generalization Under Domain Shift
+State Noise STD 0.00: Baseline Reward = -1510.40, RDEIL Reward = -1274.36
+State Noise STD 0.10: Baseline Reward = -1268.59, RDEIL Reward = -1123.73
+State Noise STD 0.20: Baseline Reward = -1456.99, RDEIL Reward = -1288.41
+State Noise STD 0.30: Baseline Reward = -1415.03, RDEIL Reward = -1204.56
+Experiment 2 completed. Plot saved.
+
+Starting Experiment 3: Adaptive Noise Schedule versus Fixed Noise Schedule
+[Epoch 1/20] Fixed Loss = 2.6978, Adaptive Loss = 2.7961
+[Epoch 2/20] Fixed Loss = 2.6933, Adaptive Loss = 2.7377
+[Epoch 3/20] Fixed Loss = 2.6432, Adaptive Loss = 2.7161
+[Epoch 4/20] Fixed Loss = 2.6901, Adaptive Loss = 2.7570
+[Epoch 5/20] Fixed Loss = 2.6894, Adaptive Loss = 2.7506
+[Epoch 6/20] Fixed Loss = 2.6747, Adaptive Loss = 2.7038
+[Epoch 7/20] Fixed Loss = 2.6962, Adaptive Loss = 2.7523
+[Epoch 8/20] Fixed Loss = 2.6475, Adaptive Loss = 2.7456
+[Epoch 9/20] Fixed Loss = 2.6497, Adaptive Loss = 2.7127
+[Epoch 10/20] Fixed Loss = 2.6662, Adaptive Loss = 2.7375
+[Epoch 11/20] Fixed Loss = 2.6693, Adaptive Loss = 2.7513
+[Epoch 12/20] Fixed Loss = 2.6895, Adaptive Loss = 2.7377
+[Epoch 13/20] Fixed Loss = 2.6837, Adaptive Loss = 2.7083
+[Epoch 14/20] Fixed Loss = 2.6809, Adaptive Loss = 2.7139
+[Epoch 15/20] Fixed Loss = 2.6690, Adaptive Loss = 2.6903
+[Epoch 16/20] Fixed Loss = 2.6704, Adaptive Loss = 2.7137
+[Epoch 17/20] Fixed Loss = 2.6682, Adaptive Loss = 2.7114
+[Epoch 18/20] Fixed Loss = 2.6605, Adaptive Loss = 2.6951
+[Epoch 19/20] Fixed Loss = 2.6520, Adaptive Loss = 2.6807
+[Epoch 20/20] Fixed Loss = 2.6639, Adaptive Loss = 2.6911
+Experiment 3 completed. Plot saved.
+
+All experiments completed successfully in 9.98 seconds!
+Results and plots saved to .research/iteration1/images/
+Status: stopped
