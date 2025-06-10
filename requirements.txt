@@ -1,1 +1,6 @@
 # Please list the required python packages.
+gymnasium>=0.28.0
+torch>=1.12.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
