@@ -1,7 +1,7 @@
 RDEIL Experiment Results Summary
 ========================================
 
-Total Runtime (seconds): 9.98
+Total Runtime (seconds): 6.54
 Experiments Completed: 3
 Plots Generated: 4
 Status: completed
